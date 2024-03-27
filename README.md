@@ -20,10 +20,7 @@ Analyze the predicted addiction level and evaluate the results.
 existing Git repository with the following command:
 
 ```
-cd existing_repo
-git remote add origin http://gitlab.koddeposu.gov.tr/alperen-uluta-sanem-sakarya-ortak-proje/technology-addiction.git
-git branch -M main
-git push -uf origin main
+git clone https://github.com/alp55/Social-Media-Addiction-Level-Detection.git
 ```
 
 ## Support
