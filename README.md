@@ -28,7 +28,7 @@ git push -uf origin main
 
 ## Support
 
-email: alperenulutas1@gmail.com , email: sanemsakarya45@gmail.com 
+Email: alperenulutas1@gmail.com , email: sanemsakarya45@gmail.com 
 ## Referance
 
 [1] Zara, M. C., & Monteiro, L. H. (2021). The negative impact of technological advancements on mental health: An epidemiological approach. Applied Mathematics and Computation, 396, 125905.
