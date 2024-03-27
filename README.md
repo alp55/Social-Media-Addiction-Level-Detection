@@ -23,6 +23,10 @@ existing Git repository with the following command:
 git clone https://github.com/alp55/Social-Media-Addiction-Level-Detection.git
 ```
 
+![Social Media Addiction Level Detection (2)](https://github.com/alp55/Social-Media-Addiction-Level-Detection/assets/163883330/225ee06c-4938-4924-926c-f496da898816)
+
+![Social Media Addiction Level Detection (1)](https://github.com/alp55/Social-Media-Addiction-Level-Detection/assets/163883330/eb548733-e2a8-44d2-a064-892624c4d6bc)
+
 ## Support
 
 Email: alperenulutas1@gmail.com , email: sanemsakarya45@gmail.com 
