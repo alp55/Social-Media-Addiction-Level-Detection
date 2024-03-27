@@ -22,6 +22,7 @@ existing Git repository with the following command:
 ```
 git clone https://github.com/alp55/Social-Media-Addiction-Level-Detection.git
 ```
+## related images
 
 ![Social Media Addiction Level Detection (2)](https://github.com/alp55/Social-Media-Addiction-Level-Detection/assets/163883330/225ee06c-4938-4924-926c-f496da898816)
 
