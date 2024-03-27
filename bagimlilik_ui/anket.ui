@@ -1,0 +1,2493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>682</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>682</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Sosyal Estimation</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #3366CC; /* Koyu Mavi */
+
+</string>
+  </property>
+  <widget class="QTabWidget" name="Label_">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>50</y>
+     <width>931</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+ background-color: rgb(244,244,244); /* Orta Ton Mavi */
+
+
+}
+
+QRadioButton, QCheckBox{
+    font-size: 13pt;
+}
+QLabel{
+    font-size: 15pt;
+	margin-left:50px;
+}
+
+QSplitter {
+
+	margin-left:100px;
+
+
+}
+
+QLabel#sonuc {
+	margin-left:0px;
+
+    font-size: 55pt;
+}</string>
+   </property>
+   <property name="currentIndex">
+    <number>24</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QLabel" name="label_1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>661</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>1. Yaşınız nedir?</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A_radioButton_Age">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>210</y>
+       <width>65</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>13-18</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="B_radioButton_Age">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>260</y>
+       <width>65</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>19-25</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="D_radioButton_Age">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>360</y>
+       <width>53</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>244</red>
+           <green>244</green>
+           <blue>244</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>244</red>
+           <green>244</green>
+           <blue>244</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>244</red>
+           <green>244</green>
+           <blue>244</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>244</red>
+           <green>244</green>
+           <blue>244</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>244</red>
+           <green>244</green>
+           <blue>244</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>244</red>
+           <green>244</green>
+           <blue>244</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>244</red>
+           <green>244</green>
+           <blue>244</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>244</red>
+           <green>244</green>
+           <blue>244</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>244</red>
+           <green>244</green>
+           <blue>244</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&gt;35</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="C_radioButton_Age">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>310</y>
+       <width>65</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>26-35</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>701</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>2. Cinsiyetiniz nedir?</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="E">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>64</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Erkek</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="K">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>300</y>
+       <width>64</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Kadın</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>611</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>3. Eğitim/Meslek(şu anda yapılan)</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="B_radioButton_Q">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>254</y>
+       <width>126</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Yüksek Lisans</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A_radioButton_Q">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>69</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Lisans</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="D_radioButton_Q">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>361</y>
+       <width>63</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Diğer</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="C_radioButton_Q">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>308</y>
+       <width>37</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>İş</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_4">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>851</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>4. Hesabınızın olduğu sosyal medya uygulamaları nederdir?</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>190</y>
+       <width>541</width>
+       <height>281</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="checkBox">
+        <property name="text">
+         <string>WhatsApp</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QCheckBox" name="checkBox_6">
+        <property name="text">
+         <string>Telegram</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkBox_2">
+        <property name="text">
+         <string>YouTube</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="checkBox_7">
+        <property name="text">
+         <string>Linkedin</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBox_3">
+        <property name="text">
+         <string>Instagram</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="checkBox_8">
+        <property name="text">
+         <string>Snapchat</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QCheckBox" name="checkBox_4">
+        <property name="text">
+         <string>Facebook</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QCheckBox" name="checkBox_9">
+        <property name="text">
+         <string>Pinteres</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QCheckBox" name="checkBox_5">
+        <property name="text">
+         <string>Twitter</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QCheckBox" name="checkBox_10">
+        <property name="text">
+         <string>Discord</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>741</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>5. Aktif olarak kullandığınız sosyal medya hesaplarını seçiniz.</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>190</y>
+       <width>541</width>
+       <height>281</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="A1_checkBox_Q1">
+        <property name="text">
+         <string>WhatsApp</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QCheckBox" name="A6_checkBox_Q1">
+        <property name="text">
+         <string>Telegram</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="A2_checkBox_Q1">
+        <property name="text">
+         <string>YouTube</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="A7_checkBox_Q1">
+        <property name="text">
+         <string>Linkedin</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="A3_checkBox_Q1">
+        <property name="text">
+         <string>Instagram</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="A8_checkBox_Q1">
+        <property name="text">
+         <string>Snapchat</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QCheckBox" name="A4_checkBox_Q1">
+        <property name="text">
+         <string>Facebook</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QCheckBox" name="A9_checkBox_Q1">
+        <property name="text">
+         <string>Pinteres</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QCheckBox" name="A5_checkBox_Q1">
+        <property name="text">
+         <string>Twitter</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QCheckBox" name="A10_checkBox_Q1">
+        <property name="text">
+         <string>Discord</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_6">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>621</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>6. Kaç yıldır sosyal medya kullanıcısısınız?</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>251</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bir yıldan az süredir.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>229</y>
+       <width>53</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1 yıl</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>288</y>
+       <width>53</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3 yıl</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>259</y>
+       <width>251</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2 yıl</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A5_radioButton_Q2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>318</y>
+       <width>251</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4 yıl</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A7_radioButton_Q2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>376</y>
+       <width>251</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>5 yıldan fazla süredir.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A6_radioButton_Q2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>347</y>
+       <width>251</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>5 yıl</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_7">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>801</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>7. Sosyal medyada günlük ortalama kaç saat vakit geçiriyorsunuz?</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>131</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bir saatten az.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>286</y>
+       <width>84</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2-3 saat</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>243</y>
+       <width>84</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1-2 saat</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>329</y>
+       <width>84</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3-4 saat</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A5_radioButton_Q3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>372</y>
+       <width>44</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&gt;4</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_8">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>761</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>8. Sosyal medya bildirimlerine ne sıklıkla yanıt veriyorsun?</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q4">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>236</y>
+       <width>311</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Önemliyse hemen</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q4">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>311</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Hemen </string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q4">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>307</y>
+       <width>311</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ne zaman telefon alsam</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q4">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>272</y>
+       <width>311</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Mümkün olan en kısa sürede</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A6_radioButton_Q4">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>379</y>
+       <width>311</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bildirimleri ertelerim</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A5_radioButton_Q4">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>343</y>
+       <width>311</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Önemli degilse cevap vermem</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_9">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>841</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>9. Sosyal medya kullanmadığınız zamanlarda, sosyal medyayı düşünmeye 
+     ne kadar zaman harcıyorsunuz?</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q5">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>115</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Çok nadiren </string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q5">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>243</y>
+       <width>80</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nadiren</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q5">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>329</y>
+       <width>73</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Sıklıkla</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q5">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>286</y>
+       <width>68</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bazen</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A5_radioButton_Q5">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>372</y>
+       <width>104</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Çok sıklıkla</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_10">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>841</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>10. Ne sıklıkla sosyal medyayı daha fazla kullanma isteği hissedersiniz ?</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q6">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>115</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Çok nadiren </string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q6">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>243</y>
+       <width>80</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nadiren</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q6">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>286</y>
+       <width>68</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bazen</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q6">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>329</y>
+       <width>73</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Sıklıkla</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A5_radioButton_Q6">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>372</y>
+       <width>104</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Çok sıklıkla</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_11">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>891</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>11. Sosyal medyayı kişisel sorunlarınızı unutmak için kullanmayı tercih eder misiniz?</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q7">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>115</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Çok nadiren </string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q7">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>243</y>
+       <width>80</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nadiren</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q7">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>286</y>
+       <width>68</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bazen</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q7">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>329</y>
+       <width>73</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Sıklıkla</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A5_radioButton_Q7">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>372</y>
+       <width>104</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Çok sıklıkla</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_12">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>741</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>12. Sosyal medya kullanımınızı azaltmaya çalıştınız mı ?</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q8">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>311</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Evet, çok fazla çaba gösteriyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q8">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>243</y>
+       <width>291</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Evet, biraz azaltmaya çalışıyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q8">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>329</y>
+       <width>411</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string> Hayır, azaltma ihtiyacı hissetmiyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q8">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>286</y>
+       <width>461</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Hayır, genellikle aynı düzeyde devam ediyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A5_radioButton_Q8">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>372</y>
+       <width>421</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Hayır, hiç düşünmedim veya uygulamadım.</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_13">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>851</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>13. Sosyal medya kullanımınız engellendiğinde huzursuz veya endişeli hisseder misiniz ?</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q9">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>115</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Çok nadiren </string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q9">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>243</y>
+       <width>80</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nadiren</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q9">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>286</y>
+       <width>68</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bazen</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q9">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>329</y>
+       <width>73</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Sıklıkla</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A5_radioButton_Q9">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>372</y>
+       <width>104</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Çok sıklıkla</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_14">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q10_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>941</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>14. Sosyal medyayı kullanma şekliniz, hedeflerinizi veya akademik başarınızı elde etmeyi 
+      zorlaştırıyor veya stresli hale getiriyor mu ?</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q10">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>115</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Çok nadiren </string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q10">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>243</y>
+       <width>80</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nadiren</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q10">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>286</y>
+       <width>68</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bazen</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q10">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>329</y>
+       <width>73</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Sıklıkla</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A5_radioButton_Q10">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>372</y>
+       <width>104</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Çok sıklıkla</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_15">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>631</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>15. Yaptığım işten/okuldan memnunum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q11">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>197</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle katılmıyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q11">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>254</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılmıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q11">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>308</y>
+       <width>106</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q11">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>361</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle Katılıyorum</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_16">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>661</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>16. Bazen hiç iyi olmadığımı düşünüyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q12">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>197</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle katılmıyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q12">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>254</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılmıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q12">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>308</y>
+       <width>106</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q12">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>361</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle Katılıyorum</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_17">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>631</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>17. İyi niteliklere sahip olduğumu hissediyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q13">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>197</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle katılmıyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q13">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>308</y>
+       <width>106</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q13">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>254</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılmıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q13">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>361</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle Katılıyorum</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_18">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q14">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>771</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>18. Bende diğer insanlar gibi çoğu şeyi iyi yapabiliyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q14">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>197</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle katılmıyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q14">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>254</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılmıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q14">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>308</y>
+       <width>106</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q14">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>361</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle Katılıyorum</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_19">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>621</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>19. Yeteneklerimle pek gurur duymuyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q15">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>197</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle katılmıyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q15">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>254</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılmıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q15">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>308</y>
+       <width>106</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q15">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>361</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle Katılıyorum</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_20">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q16">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>651</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>20. Bazen uzmanlığımın hiçbir faydası olmadığını hissediyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q16">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>197</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle katılmıyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q16">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>254</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılmıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q16">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>308</y>
+       <width>106</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q16">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>361</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle Katılıyorum</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_21">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q17">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>881</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>21. Diğer insanlar gibi bir amacım olduğunu hissediyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q17">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>254</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılmıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q17">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>197</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle katılmıyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q17">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>308</y>
+       <width>106</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q17">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>361</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle Katılıyorum</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_22">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q18">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>671</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>22. Keşke kendimle daha fazla gurur duyabilsem.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q18">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>197</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle katılmıyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q18">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>254</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılmıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q18">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>308</y>
+       <width>106</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q18">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>361</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle Katılıyorum</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_23">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q19">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>881</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>23. Diğer insanlar gibi hedeflere (hayallere) ulaşamayacağımı hissediyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q19">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>197</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle katılmıyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q19">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>308</y>
+       <width>106</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q19">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>254</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılmıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q19">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>361</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle Katılıyorum</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_24">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="label_Q20">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>691</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>24. Kendime karşı pozitif bir tutum sergilerim.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A2_radioButton_Q20">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>254</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılmıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A1_radioButton_Q20">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>197</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle katılmıyorum.</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A3_radioButton_Q20">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>308</y>
+       <width>106</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Katılıyorum</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="A4_radioButton_Q20">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>361</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kesinlikle Katılıyorum</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="anket_sonlandir">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>420</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+background-color: rgb(93, 173, 226); /* Koyu Mavi */
+
+font-size: 16px;
+color: white; /* Beyaz renk */
+ font-weight: bold; /* Yazıyı kalın harflerle göster */
+}</string>
+     </property>
+     <property name="text">
+      <string>ANKETİ BİTİR</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_25">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <widget class="QLabel" name="sonuc">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>170</y>
+       <width>900</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>55</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="Sonraki">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>590</y>
+     <width>141</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;xfcgvdfx&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 165, 0); /* Turuncu */
+
+
+color: white; /* Beyaz renk */
+font-size: 12px; /* Yazı boyutunu 4 piksel yap */
+</string>
+   </property>
+   <property name="text">
+    <string>SONRAKİ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Onceki">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>590</y>
+     <width>131</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 165, 0); /* Turuncu */
+
+
+color: white; /* Beyaz renk */
+font-size: 12px; /* Yazı boyutunu 8 piksel yap */
+
+</string>
+   </property>
+   <property name="text">
+    <string>ÖNCEKİ</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>125</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>900</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>40</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Sosyal Medya Bağımlılık Analizi</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="sonuclari_gor">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>610</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: rgb(255, 0, 0);
+
+font-size: 16px;
+color: white; /* Beyaz renk */
+ font-weight: bold; /* Yazıyı kalın harflerle göster */
+}</string>
+   </property>
+   <property name="text">
+    <string>SONUÇLARI GÖR</string>
+   </property>
+  </widget>
+  <zorder>Label_</zorder>
+  <zorder>Onceki</zorder>
+  <zorder>Sonraki</zorder>
+  <zorder>frame</zorder>
+  <zorder>sonuclari_gor</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
